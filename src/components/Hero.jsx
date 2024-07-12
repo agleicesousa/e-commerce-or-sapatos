@@ -1,6 +1,7 @@
 import React from 'react';
-
 import { HiPlus } from 'react-icons/hi';
+import img5 from '../assets/img5.png'
+import img4 from '../assets/img4.png'
 
 export default function Hero() {
   return (
@@ -20,7 +21,7 @@ export default function Hero() {
               <HiPlus size={20} />
             </button>
           </div>
-          <img src="/img5.png" alt="" className="rotate-[30deg] lg:w-auto w-4/5 absolute lg:pl-48 lg:pb-32 pb-16 z-10"/>
+          <img src={img5} alt="" className="rotate-[30deg] lg:w-auto w-4/5 absolute lg:pl-48 lg:pb-32 pb-16 z-10"/>
         </div>
         <div className="lg:absolute lg:w-1/3">
           <p className="text-gray-500 twxt-xl font-bold">02</p>
@@ -31,7 +32,7 @@ export default function Hero() {
         </div>
         <div className="rounded-full shadow-2x1 bg-gradient-to-r from-color2 to-color1 h-40 w-40 absolute right-[10%] lg:mt-32 lg:flex hidden items-center justify-center">
           <div className="h-32 w-32-32 rounded-full border border-solid border-gray-200">
-            <img src="/img4.png" alt="" className="w-full h-full m-auto"/>
+            <img src={img4} alt="" className="w-full h-full m-auto"/>
             <button className="bg-dark text-white px-2 rounded-lg text-sm font-semibold bottom-10 left-0">R$100.00</button>
             <button className="text-white bg-gradient-to-r from-color2 to-color1 rounded-full shadow-2x1 absolute w-10 h-10 top-8 right-0 z-10 flex items-center justify-center">
               <HiPlus size={20} />

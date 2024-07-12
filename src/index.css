@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-@imoort url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  scrool-behavior: smooth;
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .hoverImg {
   width: 100%;
-  transistion: all ease-in-out;
+  transition: all ease-in-out;
 }
 
 .hoverImg:hover {
