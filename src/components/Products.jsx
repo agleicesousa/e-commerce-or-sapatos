@@ -5,7 +5,7 @@ import { SiSonarcloud } from 'react-icons/si'
 import { MdCancel } from 'react-icons/md'
 import { HiHeart, HiOutlineShoppingBag } from 'react-icons/hi'
 
-import img1 from '../assets/img1.png'
+import banner1 from '../assets/banner1.jpg'
 import img6 from '../assets/img6.png'
 import img7 from '../assets/img7.png'
 import img8 from '../assets/img8.png'
@@ -66,7 +66,7 @@ export default function Produtos() {
                         </div>
                         <div>
                             <div className="overflow-hidden relative w-[36rem]">
-                                <img src={img1} alt="Produto Nike" className="w-full hoverImg" />
+                                <img src={banner1} alt="Produto Nike" className="w-full hoverImg" />
                             </div>
                         </div>
                     </div>
