@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@imoort url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  scrool-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  color: #2e3845;
+}
+
+.hoverBtn {
+  transition: all 0.4s ease 0s !important;
+  cursor: pointer;
+}
+
+.hoverBtn:hover {
+  transform: scale(1.25);
+  /*overflow: hidden !important*/
+}
+
+.hoverImg {
+  width: 100%;
+  transistion: all ease-in-out;
+}
+
+.hoverImg:hover {
+  transform: scale(1.5);
+}
+
+.transition-bg {
+  transition: 0.5s all ease-in-out;
+}
